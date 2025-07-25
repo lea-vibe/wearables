@@ -12,7 +12,7 @@ The circuit:
 - Onboard LED
 
 How to use Arduino Uno to code to lilyPad: https://www.instructables.com/How-to-upload-codes-to-Lilypad-Arduino-Without-FTD/ 
-See ?? for visual of circuit: 
+See a visual of circuit by following link in README.md file.
 
 created 2025
 by Lea V. Pedersen 
@@ -21,7 +21,8 @@ by Lea V. Pedersen
 
 const int motorPin = 5;     // connected to mosfet
 const int ledPin =  13;     // LED pin
-const int button1Pin = 10;  // pushbutton pin connected to pin 13 on lilyPad 
+const int button1Pin = 10;  // pushbutton pin 
+
 
 int button1State;  //check state of button press
 
