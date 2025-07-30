@@ -9,7 +9,7 @@ The circuit:
 - LilyPad main HW-011
 - LilyPad Vibe Board 
 - Mosfet IRL2703
-- Onboard LED
+- Onboard LED_
 
 How to use Arduino Uno to code to lilyPad: https://www.instructables.com/How-to-upload-codes-to-Lilypad-Arduino-Without-FTD/ 
 See a visual of circuit by following link in README.md file.
@@ -21,7 +21,7 @@ by Lea V. Pedersen
 
 const int motorPin = 5;     // connected to mosfet
 const int ledPin =  13;     // LED pin
-const int button1Pin = 10;  // pushbutton pin 
+const int button1Pin = 12;  // pushbutton pin 
 
 
 int button1State;  //check state of button press
